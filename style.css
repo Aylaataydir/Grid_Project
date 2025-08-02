@@ -43,7 +43,7 @@ body{
     grid-template-columns: repeat(4 , 1fr);
     grid-template-rows: 1fr, 1fr;
     gap: 1.25rem /* 20/16 */;
-    padding: 100px 400px;
+    padding: 150px 150px;
     justify-content: center;
     align-content: center;
 
