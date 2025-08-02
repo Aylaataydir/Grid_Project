@@ -33,12 +33,39 @@ body{
     min-width: 100%;
     font-family: var(--ff);
     font-size: .8125rem /* 13/16 */;
-    background-color: var(--clr-White);
+    background-color: var(--clr-Grey-100);
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: 
-    
+    grid-template-rows: 1fr, 1fr;
+
 }
+
+
+.box{
+    border-radius: .625rem /* 10/16 */;
+    padding: 1.875rem /* 30/16 */ ;
+}
+
+.box-daniel{
+    background-color: var(--clr-Purple-500);
+}
+
+.box-Jonathan{
+    background-color: var(--clr-Grey-500);
+}
+
+.box-Jeanette{
+    background-color: var(--clr-White);
+}
+
+.box-Patrick{
+    background-color: var(--clr-Dark-blue);
+}
+
+.box-Kira{
+    background-color: white;
+}
+
