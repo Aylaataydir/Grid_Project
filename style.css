@@ -32,11 +32,10 @@
 body{
 
     min-height: 100vh;
-    overflow: hidden;
-  
     font-family: var(--ff);
     font-size: .8125rem /* 13/16 */;
     background-color: var(--clr-Grey-100);
+ 
 }
 
 .container{
@@ -44,9 +43,10 @@ body{
     grid-template-columns: repeat(4 , 1fr);
     grid-template-rows: 1fr, 1fr;
     gap: 1.25rem /* 20/16 */;
-    padding: 150px;
+    padding: 100px 400px;
     justify-content: center;
     align-content: center;
+
 
 
 }
@@ -55,6 +55,7 @@ body{
 .box{
     border-radius: .625rem /* 10/16 */;
     padding: 1.875rem /* 30/16 */ ;
+    box-shadow: 30px 35px 23px 3px rgba(0,0,0,0.23);
 }
 
 .box-daniel{
