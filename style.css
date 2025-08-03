@@ -30,27 +30,33 @@
 
 
 body{
-
     min-height: 100vh;
     font-family: var(--ff);
     font-size: .8125rem /* 13/16 */;
     color: var(--clr-White);
     background-color: var(--clr-Grey-100);
+    display: flex;
  
 }
 
 .container{
+    max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: 1fr, 1fr;
     gap: 1.25rem /* 20/16 */;
     justify-content: center;
     align-content: center;
-   
-
-
-
+    margin: auto 15%
 }
+
+@media screen and (max-width :768px) {
+    .container{
+        grid-template-columns: 1fr;
+        
+    }
+    }
+
+
 
 
 .box{
